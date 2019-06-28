@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  FlickrPhotoDownloadOperation.m
 //  FlickrImageSearch
 //
 //  Created by Neetika on 27/06/19.
 //  Copyright © 2019 Neetika. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FlickrPhotoDownloadOperation.h"
 
-@interface ViewController : UIViewController
-
+@implementation FlickrPhotoDownloadOperation
 
 @end
-

@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  FlickrImageSearch
 //
-//  Created by Neetika on 25/06/19.
+//  Created by Neetika on 27/06/19.
 //  Copyright © 2019 Neetika. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FlickrPhotoSearchService.h"
+#import "FlickrConstants.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[FlickrPhotoSearchService sharedInstance] initialiseWithAPIKey:kFlickrAPIKey];
     return YES;
 }
 
